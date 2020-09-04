@@ -18,3 +18,8 @@ FROM stops
 JOIN route 
 ON id=stop
 WHERE num='4' AND company='LRT';
+
+-- 4. The query shown gives the number of routes that visit either
+-- London Road (149) or Craiglockhart (53). Run the query and notice 
+-- the two services that link these stops have a count of 2.
+-- Add a HAVING clause to restrict the output to these two routes.
