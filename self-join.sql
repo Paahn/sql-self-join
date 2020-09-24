@@ -57,3 +57,6 @@ FROM route a JOIN route b ON
   JOIN stops stopb ON (b.stop=stopb.id)
 WHERE stopa.name='Haymarket' 
 AND stopb.name='Leith';
+
+-- 8. Give a list of the services which connect the stops
+-- 'Craiglockhart' and 'Tollcross'
