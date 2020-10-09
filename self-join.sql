@@ -80,3 +80,7 @@ FROM route a JOIN route b ON
 WHERE stopb.name='Craiglockhart'
 ORDER BY a.num ASC, stopa.name;
 -- ^^ not working yet
+
+-- 10. Find the routes involving two buses that can go from Craiglockhart to Lochend.
+-- Show the bus no. and company for the first bus, the name of the stop for the transfer,
+-- and the bus no. and company for the second bus.
